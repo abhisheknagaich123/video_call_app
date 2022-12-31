@@ -31,6 +31,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  zego_uikit_prebuilt_call:
+  zego_uikit_signaling_plugin: ^1.0.14 # Add
+  zego_uikit_prebuilt_live_streaming: ^1.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -60,9 +63,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - img/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
